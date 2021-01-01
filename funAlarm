@@ -2,8 +2,8 @@ from datetime import datetime
 import webbrowser
 
 now = datetime.now()
-x = datetime(2021, 1, 1)
-while now < x:
+alarmTime = datetime(2021, 1, 1)
+while now < alarmTime:
     now = datetime.now()
 else:
     webbrowser.open('https://www.youtube.com/watch?v=dsODRfCMRoM&feature=youtu.be')
